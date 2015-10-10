@@ -1,6 +1,6 @@
 This is the section for releases of the OpModeMaker.
 
-Supported systems are any that have the Java Runtime Environment installed (target is JRE7, not necessarily needed, but recommended)
+Supported systems are any that have the Java Runtime E nvironment installed (target is JRE7, not necessarily needed, but recommended)
 
 Windows and Mac native extensions will be provided (.exe, .app, etc.) as well has the standard .jar that can be run on almost any OS.
 
