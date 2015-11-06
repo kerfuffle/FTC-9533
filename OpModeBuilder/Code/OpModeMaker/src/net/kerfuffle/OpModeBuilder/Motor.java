@@ -1,5 +1,8 @@
 package net.kerfuffle.OpModeBuilder;
 
+import net.kerfuffle.Utilities.Quad;
+import net.kerfuffle.Utilities.RGB;
+
 import org.newdawn.slick.opengl.Texture;
 
 public class Motor {
@@ -10,9 +13,10 @@ public class Motor {
 	private int direction = FORWARD;
 	private float power;
 	
+	private boolean leftJoy, rightJoy;
+	
 	private int id;
-	private float x, y, w, h;
-	private Texture tex;
+	Quad box = new Quad(0, 0, 0, 0, new RGB(0, 0, 0));
 	
 	public Motor(String name)
 	{
@@ -23,10 +27,6 @@ public class Motor {
 	public void draw()
 	{
 		
-	}
-	public void setTexture(Texture tex)
-	{
-		this.tex = tex;
 	}
 	
 	public int getId()

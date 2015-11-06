@@ -147,7 +147,7 @@ public class K9TeleOp extends OpMode {
 		// the robot more precisely at slower speeds.
 		right = (float)scaleInput(right);
 		left =  (float)scaleInput(left);
-		
+
 		// write the values to the motors
 		motorRight.setPower(right);
 		motorLeft.setPower(left);

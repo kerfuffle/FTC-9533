@@ -1,0 +1,23 @@
+Controller:
+
+Left trigger
+Right trigger
+Left bumper
+Right Bumper
+X
+Y
+B
+A
+up
+down
+left
+right
+d-pad middle
+left joy middle
+right joy middle
+left joy
+right joy
+start
+back
+mode
+

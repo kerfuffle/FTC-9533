@@ -34,7 +34,7 @@ public class Program {
 	{
 		for (int i = 0; i < motors.size(); i++)
 		{
-			motors.get(i).setTexture(motorTex);
+			motors.get(i).box.setTexture(motorTex);
 		}
 	}
 	public void drawMotors()
